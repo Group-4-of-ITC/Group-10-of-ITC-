@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: 
+        linear-gradient(135deg, rgba(224, 234, 252, 0.7), rgba(207, 222, 243, 0.7)), /* Gradient overlay */
+      url('https://png.pngtree.com/thumb_back/fh260/background/20200530/pngtree-cute-hand-drawn-style-mathematics-education-pink-plaid-background-image_337364.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Heading Styling */
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #2c3e50;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  animation: fadeIn 2s ease-out; /* Added animation */
+}
+
+/* Animation for fade-in effect */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
