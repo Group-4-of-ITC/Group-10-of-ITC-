@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Matrix  Calculation</title>
+</head>
+<body>
+  <div>
+    <label for="order">Enter matrix order (n x n):</label>
+    <input type="text" id="order" min="1" placeholder="Enter order n" />
+    <button id="generate">Generate Matrix</button>
+  </div>
+
+  <div id="matrixInput" class="matrix-container" style="display:none;"></div>
+
+  <button id="calculateLDU" class="button" style="display:none;">Calculate LDU Decomposition</button>
+
+  <h2>Output</h2>
+  <pre id="output"></pre>
+
+  <div class="operation-matrix" id="operationMatrices"></div>
+
+  <div id="lduOutput"></div>
+
+
+</body>
+</html>
