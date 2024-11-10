@@ -5,6 +5,21 @@
   <title>Matrix  Calculation</title>
 </head>
 <body>
+  <body>
+    <h3>What is LDU Decomposition?</h3>
+    <p>LDU Decomposition is a matrix factorization technique where a square matrix is decomposed into three matrices: 
+        <strong>L</strong> (Lower triangular matrix), <strong>D</strong> (Diagonal matrix), and <strong>U</strong> (Upper triangular matrix). 
+        The decomposition is particularly useful for solving systems of linear equations, computing matrix determinants, and matrix inversions.
+        </p>
+    <p>The matrix <strong>A</strong> can be written as:</p>
+    <p><strong>A = L * D * U</strong></p>
+    <p>Where:
+        <ul>
+            <li><strong>L</strong> is a lower triangular matrix with ones on the diagonal.</li>
+            <li><strong>D</strong> is a diagonal matrix, containing the eigenvalues of the original matrix.</li>
+            <li><strong>U</strong> is an upper triangular matrix with ones on the diagonal.</li>
+        </ul>
+    </p>
   <div>
     <label for="order">Enter matrix order (n x n):</label>
     <input type="text" id="order" min="1" placeholder="Enter order n" />
