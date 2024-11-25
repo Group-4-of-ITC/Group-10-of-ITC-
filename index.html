@@ -6,7 +6,6 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <body>
     <h3>What is LDU Decomposition?</h3>
     <p>LDU Decomposition is a matrix factorization technique where a square matrix is decomposed into three matrices: 
         <strong>L</strong> (Lower triangular matrix), <strong>D</strong> (Diagonal matrix), and <strong>U</strong> (Upper triangular matrix). 
@@ -22,22 +21,20 @@
         </ul>
     </p>
   <div>
+
+
+    <h3>LDU Matrix Factorization</h3>
     <label for="order">Enter matrix order (n x n):</label>
-    <input type="text" id="order" min="1" placeholder="Enter order n" />
-    <button id="generate">Generate Matrix</button>
+    <input type="text" id="matrixSize" min="2" placeholder="Enter order n" />
+    <button onclick="generateMatrixInputs()">Generate Matrix</button>
   </div>
 
-  <div id="matrixInput" class="matrix-container" style="display:none;"></div>
+    <div id="matrixInputs" style="margin-top: 20px;"></div>
 
-  <button id="calculateLDU" class="button" style="display:none;">Calculate LDU Decomposition</button>
-
-  <h2>Output</h2>
-  <pre id="output"></pre>
-
-  <div class="operation-matrix" id="operationMatrices"></div>
-
-  <div id="lduOutput"></div>
-
+    <div id="calculateButton" style="margin-top: 20px;"></div>
+    
+    <div id="result"></div>
+    <script src="ldu.js"></script>
 
 </body>
 </html>
